@@ -1,0 +1,101 @@
+.homeFormLogin {
+  padding: 3rem;
+  background-color: rgba(0, 0, 0);
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.9);
+  width: 17%;
+  height: 100%;
+}
+.homeFormSignUp {
+  padding: 3rem;
+  background-color: rgba(0, 0, 0);
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.9);
+  width: 20%;
+  height: 100%;
+  scale: 0.835;
+}
+
+.homeFormLogin h1 {
+  text-align: center;
+  padding: 1rem;
+  font-family: "Bangers", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.homeFormSignUp h1 {
+  text-align: center;
+  padding: 1rem;
+  font-family: "Bangers", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 40px;
+}
+
+#username,
+.password,
+.email {
+  background: none;
+  width: 100%;
+  border: none;
+  border: 1px solid white;
+  border-radius: 0px;
+  outline: none;
+  color: white;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: start;
+}
+
+#btns {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.signup_btn,
+.login_btn {
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  background-color: white;
+  color: rgb(255, 255, 255);
+  width: 40%;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: "Bangers", sans-serif;
+  transition: 0.2s;
+  border-radius: 0px;
+}
+
+.demo_btn {
+  outline: none;
+  border: none;
+  margin-left: 42.5%;
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.9);
+  color: rgb(255, 255, 255);
+  width: 15%;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 3rem;
+  font-family: "Bangers", sans-serif;
+  transition: 0.2s;
+  border-radius: 0px;
+}
+.demo_btn:hover {
+  color: black;
+}
+
+.signup_btn:hover,
+.login_btn:hover {
+  background-color: white;
+  color: black;
+}
