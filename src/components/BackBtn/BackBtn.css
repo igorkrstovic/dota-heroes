@@ -1,4 +1,15 @@
 .back {
+  @apply fixed top-24 left-12 text-white font-bold text-xl border border-black px-8 py-2 bg-black hover:border-white;
+  font-family: "Bangers", sans-serif;
+}
+
+@media (max-width: 600px) {
+  .back {
+    @apply text-lg px-8 py-2 relative ml-[-5rem] mt-0;
+  }
+}
+
+/* .back {
   position: fixed;
   top: 6rem;
   left: 3rem;
@@ -22,4 +33,4 @@
     margin-left: -5rem;
     margin-top: 0rem;
   }
-}
+} */

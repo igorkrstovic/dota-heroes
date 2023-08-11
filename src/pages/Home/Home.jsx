@@ -79,16 +79,16 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="w-[390px] h-[850px] sm:w-[auto] md:h-[auto]">
+    <div className="w-[390px] h-[850px] sm:w-[auto] sm:h-[auto] flex-col">
       <nav id="nav">
-        <div className="flex nav-content">
+        <div className="flex sm:nav-content w-20">
           <img src={Logo} alt="Dota Logo" />
         </div>
       </nav>
 
       <div>
-        <div className=" flex text-white justify-center items-center">
-          <form id="login_form" className="homeFormLogin m-36">
+        <div className="flex text-white justify-center items-center sm:visible invisible">
+          <form id="login_form" className="homeFormLogin sm:m-36">
             <h1>Login</h1>
             <div className="input-group">
               <label htmlFor="email">Email</label>
@@ -159,9 +159,9 @@ const HomePage = () => {
           </form>
         </div>
       </div>
-      <div className="mt-[-250px] sm:mt-[-100px]">
+      <div className="flex justify-center items-center sm:mt-[-100px] mt-[-700px]">
         <button
-          className="demo_btn bg-black hover:bg-white"
+          className="giveitatry_btn bg-black hover:bg-white hover:text-black shadow-md sm:w-[200px] w-[350px]"
           type="submit"
           onClick={onDemoLogin}
         >

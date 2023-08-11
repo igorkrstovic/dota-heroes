@@ -16,7 +16,7 @@ const HeroCard = ({ hero }) => {
             Attack Type: {hero.attack_type.toUpperCase()}
           </p>
           <p className="card-subtitle">
-            Primaty Attribute: {hero.primary_attr.toUpperCase()}
+            Primary Attribute: {hero.primary_attr.toUpperCase()}
           </p>
         </div>
       </div>
