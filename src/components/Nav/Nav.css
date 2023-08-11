@@ -6,14 +6,14 @@ nav {
   color: white;
 }
 
-.nav-content {
+/* .nav-content {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0rem 1rem;
+  padding: 0rem 0rem;
   position: relative;
-}
+} */
 
 .nav-content img {
   width: 5rem;
